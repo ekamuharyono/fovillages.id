@@ -1,0 +1,27 @@
+.alert {
+  transition: transform 0.5s;
+}
+
+.hideAlert {
+  transform: translateX(350px);
+}
+
+@media screen and (max-width: 53.5em) {
+  .hideAlert {
+    transform: translateX(350px);
+  }
+
+  .alert {
+    transition: transform 0.5s;
+  }
+}
+
+@media screen and (max-width: 36.5em) {
+  .hideAlert {
+    transform: translateX(350px);
+  }
+
+  .alert {
+    transition: transform 0.5s;
+  }
+}
