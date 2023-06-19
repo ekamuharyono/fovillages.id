@@ -32,7 +32,7 @@ const Navbar = ({ isScrolled }) => {
   }
 
   return (
-    <header className='bg-white'>
+    <header className=''>
       <nav className={`${isScrolled ? 'backdrop-blur-md' : ''} shadow-md fixed w-screen ${styles.primary__header}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative flex justify-between h-16">
